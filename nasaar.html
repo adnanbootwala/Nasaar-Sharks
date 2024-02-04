@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nasaar Sharks</title>
+</head>
+<body>
+    <header>
+        <h1>Nasaar Sharks</h1>
+    </header>
+    
+    <section id="players">
+        <!-- Player list will be displayed here -->
+    </section>
+
+<!-- ... (unchanged part of the HTML) ... -->
+
+<section id="addPlayerForm">
+    <h2>Add New Player</h2>
+    <form id="playerForm">
+        <label for="playerName">Player Name:</label>
+        <input type="text" id="playerName" required>
+
+        <label for="runsScored">Runs Scored:</label>
+        <input type="number" id="runsScored" required>
+
+        <label for="runsConceded">Runs Conceded:</label>
+        <input type="number" id="runsConceded" required>
+
+        <label for="wicketsTaken">Wickets Taken:</label>
+        <input type="number" id="wicketsTaken" required>
+
+        <label for="contribution">Contribution:</label>
+        <input type="text" id="contribution" required>
+
+        <label for="matchesPlayed">Matches Played:</label>
+        <input type="number" id="matchesPlayed" required>
+
+        <button type="button" onclick="addPlayer()">Add Player</button>
+    </form>
+</section>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
